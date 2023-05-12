@@ -1,0 +1,65 @@
+.mainDivCards{
+    @apply
+    w-full
+    h-auto
+    bg-slate-800
+    p-10
+}
+
+.mainDivCards2{
+    @apply
+    w-full
+    h-full
+    bg-slate-800
+    p-10
+}
+
+.divCards{
+    @apply
+    w-48
+    h-60
+    bg-slate-400
+
+}
+
+.genreDiv{
+    @apply
+    mb-8
+}
+
+.titleDiv{
+    @apply
+    flex
+    flex-col
+    justify-end
+    mt-auto
+    h-52
+}
+
+.noMovies{
+    @apply
+    w-full
+    h-48
+    content-center
+    flex
+    flex-col
+    justify-center
+    items-center
+}
+
+.overlayDiv{
+    @apply
+    absolute 
+    top-40 
+    left-0 
+    w-full 
+    h-20
+    opacity-0 
+    transition-opacity 
+    duration-300 
+    hover:opacity-100
+    bg-black
+    p-3
+    flex
+    justify-around
+}

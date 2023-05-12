@@ -1,0 +1,14 @@
+.inputFieldDiv{
+    @apply
+    flex
+    justify-between
+    mt-5
+    w-full
+
+}
+
+.innerDiv{
+    @apply
+    p-10
+}
+

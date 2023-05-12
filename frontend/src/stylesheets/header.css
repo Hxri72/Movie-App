@@ -1,0 +1,14 @@
+.mainDivHeader{
+    @apply
+    w-full
+    h-20
+    bg-slate-900
+    flex
+    justify-between
+    p-6
+}
+
+.headerFunctionMainDiv{
+    @apply
+    flex
+}
